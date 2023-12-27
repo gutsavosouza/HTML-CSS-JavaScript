@@ -1,0 +1,42 @@
+body{
+    background-color: #39B579;
+    font-family: "PT Sans", sans-serif;
+    letter-spacing: .5px;
+}
+.header{
+    color: #2A4CA1;
+    text-align: center; 
+    margin: .7% 25%;
+    font-weight: bold;
+    background-color: rgba(101, 129, 198, .6);
+    border: 5px double #2A4CA1;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: .7%;
+}
+img{
+    width: 450px;
+    height: 270px;
+    margin: 15px;
+    transition: transform .5s;
+    border: 5px dashed #0A874B;
+}
+img:hover{
+    transform: scale(1.09);
+}
+.pageback{
+    margin: .9% 48%;
+    background-color: rgba(101, 129, 198, .6);
+    border: 2px solid #2A4CA1;
+    text-decoration: none;
+    color: #2A4CA1;
+    background-size: contain;
+}
+.pageback:hover{
+    color: #163582;
+    background-color: rgba(101, 129, 198, .9);
+    text-decoration: none;
+}

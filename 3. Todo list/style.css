@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(to right, rgb(109, 35, 159), rgb(125, 160, 217));
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    margin: 20px 20px;
+}
+
+h1 {
+    font-size: 4.7rem;
+    margin: 0.2em 0.24rem;
+}
+
+li{
+    font-size: 1.38rem;
+}
+
+.button {
+    margin-left: 0.3rem;
+    background-color: #883ead;
+    border: 2px solid #4f1b69;
+    border-radius: 15px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: #380e4d;
+}
+
+.button:hover{
+    background-color:  #763696;
+    cursor: pointer;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+}

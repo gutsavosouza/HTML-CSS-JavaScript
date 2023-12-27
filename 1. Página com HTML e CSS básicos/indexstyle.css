@@ -1,0 +1,76 @@
+/* Selector {
+    Property: value;          
+Property: top right bottom left; 
+} */
+body{
+    background-color: #39B579;
+    font-family: "PT Sans", sans-serif;
+}
+.headertext{
+    text-align: center;
+    color: #1DA765;
+    border: 1.7px solid #3a5fbd;
+    border-radius: 3px;
+    background-color: rgba(101, 129, 198, .6);
+    margin: 1% 43.5% .7% 43.5%;
+    text-shadow:
+    -1px -1px 0 #0A874B,  
+     1px -1px 0 #0A874B,
+     -1px 1px 0 #0A874B,
+      1px 1px 0 #0A874B;
+}
+.links{
+    display: flexbox;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 2%;
+    background-color: rgba(101, 129, 198, .6);
+    border: 3px double #2A4CA1;
+}
+.ror2, .registration, .gallery{
+    text-decoration: none;
+    margin-right: 50px;
+    color: #2A4CA1;
+    background-size: contain;
+    background-color: rgba(101, 129, 198, .0);
+}
+.registration:hover, .ror2:hover, .gallery:hover{
+    color: #163582;
+    background-color: rgba(101, 129, 198, .9);
+    text-decoration: none;
+}
+button:focus{
+    outline: none;
+}
+.button_1{
+    padding: 10px 25px;
+    color: #2A4CA1;
+    border-radius: 30px;
+    border: 0px;
+    background-color: rgba(101, 129, 198, .6);
+    animation: none;
+}
+.button_1:hover{
+    color: #163582;
+    background-color: rgba(101, 129, 198,.9);
+    border: 0px solid rgba(101, 129, 198, .9)
+}
+hr{
+    border-color: rgba(101, 129, 198, .6);
+    border-width: 3px;
+    max-width: 45px;
+}
+.poop{
+    display: block;
+    margin: auto;
+    margin-top: .8%;
+    background-color: rgba(101, 129, 198, .6);
+    border: 3px double #2A4CA1;
+    margin-top: 3%;
+    border-radius: 45% 0%;
+    transition: transform 3s ease;
+}
+.poop:hover{
+    background-color: rgba(101, 129, 198, .8);
+    transform: rotate(720deg);
+}
