@@ -1,0 +1,29 @@
+body {
+    font-family: 'Raleway', cursive;
+    text-align: center;
+    letter-spacing: .20em;
+    background: linear-gradient(to right, blue, yellow);
+}
+
+h1 {
+    color: #F5F5F5;
+    margin: .30em;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 20px;
+    color: #F5F5F5;
+    letter-spacing: normal;
+    margin: .30em;
+}
+
+h3 {
+    border: solid rgba(168, 168, 255, .5)  thin;
+    background-color: rgba(65, 65, 85, .5);
+    padding: .3% 0% .3% .0;
+    margin: .7% 18% .7% 18%;
+    color: #F5F5F5;
+}
